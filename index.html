@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/clock.svg">
+    <title>Wall / Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Wall Clock -->
+        <div class="wall-clock" id="clock">
+           <ul class="hours">
+                <li><span>1</span></li>
+                <li><span>2</span></li>
+                <li><span>3</span></li>
+                <li><span>4</span></li>
+                <li><span>5</span></li>
+                <li><span>6</span></li>
+                <li><span>7</span></li>
+                <li><span>8</span></li>
+                <li><span>9</span></li>
+                <li><span>10</span></li>
+                <li><span>11</span></li>
+                <li><span>12</span></li>
+           </ul>
+           <div class="hr-wrapper">
+            <div class="hand hr" id="hour-hand"></div>
+           </div>
+           <div class="min-wrapper">
+            <div class="hand min" id="minute-hand"></div>
+           </div>
+           <div class="sec-wrapper">
+            <div class="hand sec" id="second-hand"></div>
+           </div>
+           <div class="dot"></div>
+        <!-- Digital Clock -->
+    </div>
+    <div class="digital-clock">
+        <div class="digital-wrapper">
+            <div class="hr" id="hour">0:</div>
+            <div class="min" id="minute">0</div>
+            <div class="sec" id="seconds">0</div>
+            <div class="tim" id="tim"></div>
+        </div>
+    </div>
+    <script src="js/doubleClock.js"></script>
+</body>
+</html>
